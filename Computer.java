@@ -2,10 +2,11 @@ public class Computer extends TangibleAsset {
 	private String name;
 	private int price;
 	private String color;
+	private String CName;
   
-	public Computer(String name, int price, String color) {
+	public Computer(String name, int price, String color, String CName) {
 		super(name, price, color);
-		this.name = name;
+		this.CName = CName;
 	}
 	public String getName() {
 		return this.name;
