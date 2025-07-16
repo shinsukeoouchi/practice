@@ -2,11 +2,11 @@ public class Computer extends TangibleAsset {
 	private String name;
 	private int price;
 	private String color;
-	private String CName;
+	private String cName;
   
-	public Computer(String name, int price, String color, String CName) {
+	public Computer(String name, int price, String color, String cName) {
 		super(name, price, color);
-		this.CName = CName;
+		this.cName = cName;
 	}
 	public String getName() {
 		return this.name;
@@ -20,7 +20,7 @@ public class Computer extends TangibleAsset {
 		return this.color;
 	}
 	public String getCName() {
-	return this.CName;
+	return this.cName;
 	}
 	
 }
