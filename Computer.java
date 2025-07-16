@@ -19,4 +19,8 @@ public class Computer extends TangibleAsset {
 	public String getColor() {
 		return this.color;
 	}
+	public String getCName() {
+	return this.CName;
+	}
+	
 }
