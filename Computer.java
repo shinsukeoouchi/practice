@@ -8,6 +8,7 @@ public class Computer extends TangibleAsset {
 		super(name, price, color);
 		this.cName = cName;
 	}
+	//TangibleAssetより@overrideできる場合には以下行からのアクセサが不要
 	public String getName() {
 		return this.name;
 	}
